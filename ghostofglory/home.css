@@ -1,0 +1,93 @@
+@font-face {
+  font-family: steiner;
+  src: url(/steiner.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px 100px;
+ opacity: 1;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.logo img{
+  height: 5rem;
+  width: 5rem;
+}
+
+.insta-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.div1{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+
+h1 {
+  margin-top: 10rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3{
+  margin-top: 10rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
